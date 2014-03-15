@@ -8,7 +8,8 @@ h2{
 
 body{
 	background-image: url("http://www.highreshdwallpapers.com/wp-content/uploads/2011/11/Cartoon-Cloud-Wallpaper.jpg");
-	background-size: 100%;
+	width: auto;
+	height: auto;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 }
@@ -27,15 +28,15 @@ body{
 }
 
 #sidebar{
-	border: 1px solid white;
+	border: 3px solid white;
 	border-radius: 15px;
 	width: 200px;
-	height: 60%;
+	height: 425px;
 	float: left;
-	color: black;
+	color: white;
 	text-align: left;
 	margin: auto;
-	padding: 6px;
+	padding: 5px;
 	position: fixed;
 }
 
