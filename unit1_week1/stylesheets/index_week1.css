@@ -20,7 +20,7 @@ body{
 
 #main{
 	width: 1200px;
-	float: center;
+	float: right;
 	margin: 0 auto;
 	height: 100%;
 	text-align: left;
@@ -39,11 +39,11 @@ body{
 	position: fixed;
 }
 
-#sidebar2{
+/*#sidebar2{
     float: right;
     width: auto;
     padding-left: 4px;
-}
+}*/
 
 footer{
 	color: white;
