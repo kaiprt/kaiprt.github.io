@@ -46,7 +46,7 @@ p{
 	text-align: left;
 	margin: auto;
 	padding: 5px;
-	position: fixed;
+	position: absolute;
 	box-shadow: 7px 7px 7px #4772B2
 }
 
@@ -64,4 +64,9 @@ footer{
   width: 100%;
   height: 60px;   /* Height of the footer */
   margin-left: 35px
+}
+
+#imagehappy{
+	width: 120px;
+	height: 120px;
 }
