@@ -26,7 +26,7 @@ body{
 }
 
 p{
-	max-width: 820px;
+	max-width: 800px;
 }
 
 #main{
@@ -71,4 +71,31 @@ footer{
 #imagehappy{
 	width: 120px;
 	height: 120px;
+}
+
+#capture{
+	width: 800px;
+	height: auto;
+	border-radius: 50px;
+	box-shadow: 7px 7px 7px #4772B2;
+}
+
+a:link{
+	color: white;
+	text-decoration:none;
+}
+
+a:visited{
+	color: aqua;
+	text-decoration:none;
+}
+
+a:hover{
+	color: grey;
+	text-decoration:none;
+}
+
+a:active{
+	color: navy; 
+	text-decoration:none;
 }
