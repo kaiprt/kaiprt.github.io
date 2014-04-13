@@ -48,14 +48,8 @@ p{
   margin: auto;
   padding: 5px;
   position: fixed;
-  box-shadow: 7px 7px 7px #4772B2
+  box-shadow: 7px 7px 7px #4772B2;
 }
-
-/*#sidebar2{
-    float: right;
-    width: auto;
-    padding-left: 4px;
-}*/
 
 footer{
   color: white;
