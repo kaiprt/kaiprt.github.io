@@ -1,59 +1,65 @@
 h1{
-  color: white;
-  font-size: 1.5em;
+	color: white;
+	font-size: 1.5em;
 }
 
 h2{
-  color: white;
-  font-size: 1.125em;
+	color: white;
+	font-size: 1.125em;
 }
 
 body{
-  background-image: url("http://www.highreshdwallpapers.com/wp-content/uploads/2011/11/Cartoon-Cloud-Wallpaper.jpg");
-  width: auto;
-  height: 100%;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  font-size: 18px;
-  font-family: 'Chango', cursive;
-  text-shadow: 2px 2px 2px #4772B2;
+	background-image: url("http://www.highreshdwallpapers.com/wp-content/uploads/2011/11/Cartoon-Cloud-Wallpaper.jpg");
+	width: auto;
+	height: 100%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	font-size: 18px;
+	font-family: 'Chango', cursive;
+	text-shadow: 2px 2px 2px #4772B2;
 }
 
 #container{
-  width: 1500px;
-  overflow: auto;
-  overflow-x: hidden;
+	width: 1500px;
+	overflow: auto;
+	overflow-x: hidden;
 }
 
 p{
-  max-width: 800px;
+	max-width: 800px;
 }
 
 #main{
-  width: 1250px;
-  float: right;
-  margin: 0 auto;
-  height: 100%;
-  text-align: left;
+	width: 1250px;
+	float: right;
+	margin: 0 auto;
+	height: 100%;
+	text-align: left;
 }
 
 #sidebar{
-  border: 3px solid white;
-  border-radius: 15px;
-  width: 160px;
-  height: 500px;
-  float: left;
-  color: white;
-  text-align: left;
-  margin: auto;
-  padding: 5px;
-  position: fixed;
-  box-shadow: 7px 7px 7px #4772B2;
+	border: 3px solid white;
+	border-radius: 15px;
+	width: 160px;
+	height: 500px;
+	float: left;
+	color: white;
+	text-align: left;
+	margin: auto;
+	padding: 5px;
+	position: fixed;
+	box-shadow: 7px 7px 7px #4772B2
 }
 
+/*#sidebar2{
+    float: right;
+    width: auto;
+    padding-left: 4px;
+}*/
+
 footer{
-  color: white;
-  text-align: left;
+	color: white;
+	text-align: left;
   position: relative;
   bottom: 0;
   width: 100%;
@@ -63,33 +69,33 @@ footer{
 }
 
 #imagehappy{
-  width: 120px;
-  height: 120px;
+	width: 120px;
+	height: 120px;
 }
 
 #capture{
-  width: 800px;
-  height: auto;
-  border-radius: 50px;
-  box-shadow: 7px 7px 7px #4772B2;
+	width: 800px;
+	height: auto;
+	border-radius: 50px;
+	box-shadow: 7px 7px 7px #4772B2;
 }
 
 a:link{
-  color: white;
-  text-decoration:none;
+	color: white;
+	text-decoration:none;
 }
 
 a:visited{
-  color: aqua;
-  text-decoration:none;
+	color: aqua;
+	text-decoration:none;
 }
 
 a:hover{
-  color: grey;
-  text-decoration:none;
+	color: grey;
+	text-decoration:none;
 }
 
 a:active{
-  color: navy; 
-  text-decoration:none;
+	color: navy; 
+	text-decoration:none;
 }
