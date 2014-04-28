@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+      <link rel="stylesheet" type="text/css" href="blog_template.css" link href='http://fonts.googleapis.com/css?family=Chango' rel='stylesheet' type='text/css'>
+      <title>Kai's Blog</title>
+  </head>
+  <header>
+    <h1>Let's Talk SQL!</h1>
+  </header>
+  <body>
+    <section>
+      <img id="capture" src="http://thinknook.com/wp-content/uploads/2012/01/sql_saturday_logo.png"></a>
+      <h2><strong>SQL</strong><h2>
+      <article>
+        <p>
+          SQL stands for Structured Query Language. SQL is used to communicate with a database. According to ANSI (American National Standards Institute), it is the standard language for relational database management systems (<a href="http://www.sqlcourse.com/intro.html" target="_blank">SQLCourse.com</a>). This week we will discuss SQL injection and why it is a problem in the SQL world!
+        </p>
+        <h2>SQL Injection</h2>
+        <p>
+          A SQL injection attack consists of insertion or "injection" of a SQL query via the input data from the client to the application (<a href="https://www.owasp.org/index.php/SQL_injection" target="_blank">OWASP</a>).
+        </p></br>
+        <h2>Why is this a problem?</h2>
+        <p>
+          Well if the attack is successful sensitive data can be accessed, altered, deleted, or updated within the database. This means bank balances can be changed, transactions voided, SSN's and credit card information stolen... get the picture? :) Fortunately, there are ways to protect your database from these vulnerabilities. Yay!
+        </p></br>
+        <h2>How to Avoid SQL Injection Vulnerabilities</h2>
+        <p>
+          Owasp.org states the most affective methods to block SQL injections are parameterizing your queries and careful use of parameterized stored procedures. I have an example below.</br>
+          <img src="Blog_images/fix.png"></br><strong><a href="https://www.owasp.org/index.php/SQL_injection" target="_blank">MORE EXAMPLES HERE (SCROLL DOWN ON PAGE)</a></strong></br></br>
+          <strong>Parameterize your queries!</strong> This separates the query and data through the use of bound parameters which are used as placeholders.</br></br>
+          <strong>Parameterize stored procedures!</strong> This helps avoid most forms of SQL Injection</br></br>
+          <strong>Always use accounts with minimum privilege necessary for each application.</strong>
+          </br>There is a lot of good information regarding SQL Injection on the Internet and some tutorials on <a href="http://www.youtube.com/" target="_blank">youTube</a>.
+          </p>
+      </article>
+    </section>
+  </body>
+</html
