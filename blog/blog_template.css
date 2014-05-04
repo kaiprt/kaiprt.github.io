@@ -4,7 +4,7 @@ h1{
 }
 
 h2{
-	color: white;
+	color: black;
 	font-size: 1.125em;
 }
 
@@ -14,7 +14,7 @@ body{
 	height: 100%;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
-	font-size: 18px;
+	font-size: 1em;
 	font-family: 'Chango', cursive;
 	text-shadow: 2px 2px 2px #4772B2;
 }
@@ -26,6 +26,7 @@ body{
 }
 
 p{
+	color: white;
 	max-width: 800px;
 }
 
